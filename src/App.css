@@ -1,0 +1,246 @@
+.App {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+
+#g-search-button {
+  display: inline-block;
+
+}
+
+.iptag{
+  
+  outline: none;
+  width: 97%;
+  border: 0px solid;
+ 
+}
+.ip{
+  border-style: solid;
+  border-width: 2px;
+  border-style: inset;
+  margin-left: 20px;
+  /* outline: 2px dashed rgb(79, 9, 160); */
+}
+.clck{
+  width: 3%;
+ 
+}
+.searchip{
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  
+  
+}
+.clck{
+  display: inline-block;
+  cursor: pointer;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.signup{
+  
+  display: flex;
+}
+.login{
+  display: flex;
+}
+.lg{
+  margin-top: 30px;
+}
+.lmsimg{
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+/* .img{
+  
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+} */
+.imgc{
+  width: 100%;
+  height: 600px;
+}
+
+.signupform{  
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
+}
+
+.signup{
+  background-color: #282c34;
+  
+}
+.form1{
+  float: left;
+  height: 50%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: black;
+}
+.header{
+  height: 50px;
+  color: black;
+  background-color: rgb(1, 157, 150);
+  box-shadow: inset -8px 9px 48px -12px rgba(0,0,0,0.63);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.frm{
+  background-image: url("https://images.unsplash.com/photo-1503543791519-1694c6b20779?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#eachtoken{
+  cursor: pointer;
+}
+.logout{
+  position: absolute;
+  right: 1px;
+}
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #3498db;
+  width: 70px;
+  height: 70px;
+
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.imgx{
+  width: 100%;
+  height: 560px;
+}
+.card {
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0  rgb(1, 157, 150);
+}
+
+
+
+.container {
+  padding: 2px 16px;
+}
+.dropbtn1 {
+  background-color: rgb(1, 157, 150);
+  color: black;
+  padding: 13px;
+  width:160px;
+  font-size: 16px;
+  border: none;
+  
+  cursor: pointer;
+}
+
+
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: darkslategray;
+  float: left;
+  margin-left: 20px;
+}
+.dropdown1-content a {
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1-content a:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+  background-color:  rgb(9, 90, 86);
+}
+.getallbookstable{
+  height: 550px;
+  overflow-y : scroll; 
+}
+
+li .lnk {
+  display: block;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+li .lnk:hover {
+  color: black;
+  text-decoration: none;
+  background-color:  rgb(9, 90, 86);
+}
+

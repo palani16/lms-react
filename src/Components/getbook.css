@@ -1,0 +1,64 @@
+.example {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    box-shadow: 10px 10px 18px -5px rgba(0,0,0,1);
+    padding: 5px;
+    border-radius: 20px; 
+      color: black;
+      font-style: italic;
+      
+  }
+  .def{
+    cursor: no-drop;
+  }
+  .pg{
+    margin-top: 4px;
+    display: flex;
+  }
+  .flx2{
+    width:50px;
+  }
+  .card2 {
+
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+  }
+  .bk{
+    box-shadow: -17px 15px 22px 1px rgba(0,0,0,0.63);
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0  rgb(1, 157, 150);
+  }
+  .suggestion{
+    height: 480px;
+    overflow-y : scroll; 
+  }
+  .suggestion::-webkit-scrollbar {
+    width: 13px;
+   
+  }
+  
+  /* Track */
+  .suggestion::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+  }
+   
+  /* Handle */
+  .suggestion::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .suggestion::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .srch{
+    margin-left: 2px;
+    margin-bottom: 4px;
+    font-size: 80%;
+    width: 18%;
+    height: 1%;
+  }
